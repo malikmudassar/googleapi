@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "angular-geode-361110",
+  "private_key_id": "668865b6882c202a1bc5c77955f69d2d2a1107bc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCoXwtZ9uoFKAvb\nyQrdANqIZvyW3FKdUCrz6Oim0LnO0C3KawFBqAFj4MIAn8BJQsr9q7aRJb79eeRR\nEbbPjnPdOeTxlfPDcANdjr4p5nJ8hDiJ6VUWR6pYH+6GDVdeiQJLwIjB7UotvpVS\nFB/lTbqI6JjYXD20oFVAViuqY93n8CqPeSManhbS+iZO+KVOV6wDD04fi2IIETLO\nQiAP/g07FGcNIBceLcGnbtSYICUHG+YClxzIyhunP4xA/QrSbtXDT3YrkCtanQGX\np3+6rzeDC2MK4nHsVqz2Gnwf+6hi9sD8pVzliAeqMVUacFQFJlO3Z3WzbqCv/L6j\nuYmNXTMdAgMBAAECggEAG61L+2ToQSK9GErq+ztJsQRk3xOmjO+BsAiIPeuvr3xv\nGogOc9F/MQDgQyP/gst0/M/+OcvfomEoE996kpHTH/mFVeUVZfoCw51USyTzit5d\nQOZXM0tiiAvvtJ96zjJtazBiCqbL+8sJVq2yNIpbcGfzwBUhm5CDkwjXMrIp5xdC\nOYoW6U0NPjDq7YABl/B83J95sf5txIZE3o3bo7I2vhSUPIKjCqEN8ednpdyONvaT\n5E1MgDJ9ZE5dRT7DubjYmYwaUIopFk22wz/OJswCSAazvUxqjmbocD3eF2mvgdSr\nlBxIN2+201KmhGnssj29nBJUN9Ci0RU/ma8PC8aTbQKBgQDb266s7tVTrW5V4r+2\nv5cqPy2xneckev6fgHYantFOnjHz1Zud8qhAhCH72b6D1ZZ33SI8mKwKIo4HVfjK\n+Yo9ni1tUn5L/iStZV9l2+XfPAxndD0E2ugmxngORgoUTv71y4xeRtDTHdah/bPk\nXHBn5mOGoOatRmSnRg6bKcK6XwKBgQDEDKI4Tm6FVUI3i3LdNjuCbYq50aYlq5Vh\nyShiRXpYL9P4hpqnqwg2MKWQo9tdw+IWCRpFjLLh/zjJ9Yr2kvHMiIqGNPNSb1e5\nbZrJg0tyLaQkV5lVhe5lssacxt3/4QP/jBDuX2mQoSK9x8W/ql0ZIx5N1hTHn61q\nECkYkpF8AwKBgA8kqHlc0fC7h1f/EDlkJONSCrGrMJqApj0SOhBHVB9YIhSrZ9aP\nOiuHblfMfaTS91Q2NP97fI4OJz42G7bPTUhFNtfK0MwnKxuOWe3IIaMonaoahYFq\nGodhMC+7f0I61rDTXk24DvYbngb2VIesHknpwn0pY/oXWSN0XdkuHS19AoGATxTZ\niuT4aAhQQZ+aoejycFZHk1UiNCfWhi9ifuGPzGrekm2ZjPDMyy8sWf/+yP/u/vyF\nAHEU51zQR4comvYDW4HofuJ1FFedh0rTGV5A3LnUcGR1ka4I0DUhMLR3cHQP7NFP\nMxiBuLmHDg67kejizPUBkFw+3ZdnmFUUfrkAvokCgYBiE7HDOd/oJKFv2YNhhWHg\nnFMfdtqREFQytEcNv9tOKQKDpieV2U3ZoOrM3+lTBXO3IFan4ksABTVYclybecxB\njgIH9pBTJiy5VFQw/VkWO3eGSJO981+riQYbQ4eO9uaXwPRpc8tGasMN3NCWKWXQ\nhhlq0mxy3AKfbD2sYYgaCQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "chandni-marriage-halls@angular-geode-361110.iam.gserviceaccount.com",
+  "client_id": "116030484618354508342",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chandni-marriage-halls%40angular-geode-361110.iam.gserviceaccount.com"
+}

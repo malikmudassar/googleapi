@@ -1,0 +1,789 @@
+[21-Oct-2022 11:06:05 UTC] PHP Warning:  Undefined property: GuzzleHttp\Psr7\Response::$htmlLink in /home/dinxstud/public_html/googleapi/test1.php on line 45
+[21-Oct-2022 11:07:58 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "deleted",
+    "message": "Resource has been deleted"
+   }
+  ],
+  "code": 410,
+  "message": "Resource has been deleted"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(55): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/test1.php(42): Google\Service\Calendar\Resource\Events->delete()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[21-Oct-2022 11:08:17 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "deleted",
+    "message": "Resource has been deleted"
+   }
+  ],
+  "code": 410,
+  "message": "Resource has been deleted"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(55): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/test1.php(42): Google\Service\Calendar\Resource\Events->delete()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[21-Oct-2022 11:08:52 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "deleted",
+    "message": "Resource has been deleted"
+   }
+  ],
+  "code": 410,
+  "message": "Resource has been deleted"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(55): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/test1.php(42): Google\Service\Calendar\Resource\Events->delete()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[25-Oct-2022 03:43:58 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "calendar",
+    "reason": "timeRangeEmpty",
+    "message": "The specified time range is empty.",
+    "locationType": "parameter",
+    "location": "timeMax"
+   }
+  ],
+  "code": 400,
+  "message": "The specified time range is empty."
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(89): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[31-Oct-2022 17:55:58 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "badRequest",
+    "message": "Bad Request"
+   }
+  ],
+  "code": 400,
+  "message": "Bad Request"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[01-Nov-2022 19:35:11 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 05:32:46 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 07:04:49 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 07:09:50 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 07:20:55 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 07:24:13 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 08:00:15 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 09:13:21 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 09:16:59 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[17-Mar-2023 09:18:44 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[20-Mar-2023 06:51:53 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[20-Mar-2023 06:59:16 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[20-Mar-2023 07:09:04 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[20-Mar-2023 07:11:23 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[24-Mar-2023 06:45:40 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[24-Mar-2023 07:41:41 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 11
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 12
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 14
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 19
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 26
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 38
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 39
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 40
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 41
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 42
+[27-Mar-2023 05:21:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 44
+[27-Mar-2023 05:21:52 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "badRequest",
+    "message": "Bad Request"
+   }
+  ],
+  "code": 400,
+  "message": "Bad Request"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(143): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/createEvent.php(87): Google\Service\Calendar\Resource\Events->insert()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[27-Mar-2023 06:48:33 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[27-Mar-2023 10:52:07 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 11
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 12
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 14
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 19
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 26
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 38
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 39
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 40
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 41
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 42
+[28-Mar-2023 10:14:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/createEvent.php on line 44
+[28-Mar-2023 10:14:31 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "badRequest",
+    "message": "Bad Request"
+   }
+  ],
+  "code": 400,
+  "message": "Bad Request"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(143): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/createEvent.php(87): Google\Service\Calendar\Resource\Events->insert()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[28-Mar-2023 10:18:46 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "notFound",
+    "message": "Not Found"
+   }
+  ],
+  "code": 404,
+  "message": "Not Found"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(143): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/createEvent.php(87): Google\Service\Calendar\Resource\Events->insert()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[28-Mar-2023 10:41:04 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "notFound",
+    "message": "Not Found"
+   }
+  ],
+  "code": 404,
+  "message": "Not Found"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(143): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/createEvent.php(87): Google\Service\Calendar\Resource\Events->insert()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[31-Jul-2023 09:29:26 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/calendar/v3/calendars/info%40chandnihalls.com/events/</code> was not found on this server.  <ins>That’s all we know.</ins>
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(94): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[31-Jul-2023 09:48:41 UTC] PHP Warning:  Undefined variable $clientName in /home/dinxstud/public_html/googleapi/updateEvent.php on line 32
+[31-Jul-2023 09:48:41 UTC] PHP Warning:  Undefined variable $hallname in /home/dinxstud/public_html/googleapi/updateEvent.php on line 32
+[31-Jul-2023 09:48:41 UTC] PHP Warning:  Undefined variable $hallname in /home/dinxstud/public_html/googleapi/updateEvent.php on line 34
+[31-Jul-2023 09:48:41 UTC] PHP Warning:  Undefined variable $clientName in /home/dinxstud/public_html/googleapi/updateEvent.php on line 34
+[31-Jul-2023 09:48:41 UTC] PHP Warning:  Undefined variable $datetime in /home/dinxstud/public_html/googleapi/updateEvent.php on line 38
+[31-Jul-2023 09:48:41 UTC] PHP Warning:  Undefined variable $enddatetime in /home/dinxstud/public_html/googleapi/updateEvent.php on line 43
+[31-Jul-2023 09:48:42 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "invalid",
+    "message": "Start and end times must either both be date or both be dateTime."
+   }
+  ],
+  "code": 400,
+  "message": "Start and end times must either both be date or both be dateTime."
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(48): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[31-Jul-2023 09:51:31 UTC] PHP Warning:  Undefined variable $clientName in /home/dinxstud/public_html/googleapi/updateEvent.php on line 32
+[31-Jul-2023 09:51:31 UTC] PHP Warning:  Undefined variable $hallname in /home/dinxstud/public_html/googleapi/updateEvent.php on line 32
+[31-Jul-2023 09:51:31 UTC] PHP Warning:  Undefined variable $hallname in /home/dinxstud/public_html/googleapi/updateEvent.php on line 34
+[31-Jul-2023 09:51:31 UTC] PHP Warning:  Undefined variable $clientName in /home/dinxstud/public_html/googleapi/updateEvent.php on line 34
+[31-Jul-2023 09:51:31 UTC] PHP Warning:  Undefined variable $datetime in /home/dinxstud/public_html/googleapi/updateEvent.php on line 38
+[31-Jul-2023 09:51:31 UTC] PHP Warning:  Undefined variable $enddatetime in /home/dinxstud/public_html/googleapi/updateEvent.php on line 43
+[31-Jul-2023 09:51:31 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "invalid",
+    "message": "Start and end times must either both be date or both be dateTime."
+   }
+  ],
+  "code": 400,
+  "message": "Start and end times must either both be date or both be dateTime."
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(403): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/updateEvent.php(48): Google\Service\Calendar\Resource\Events->update()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 11
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 12
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 14
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 19
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 26
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 38
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 39
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 40
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 41
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 42
+[01-Sep-2023 07:09:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 44
+[01-Sep-2023 07:09:56 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "badRequest",
+    "message": "Bad Request"
+   }
+  ],
+  "code": 400,
+  "message": "Bad Request"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(143): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/create_event.php(87): Google\Service\Calendar\Resource\Events->insert()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 11
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 12
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 14
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 19
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 26
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 38
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 39
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 40
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 41
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 42
+[01-Sep-2023 07:10:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/dinxstud/public_html/googleapi/create_event.php on line 44
+[01-Sep-2023 07:10:10 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "badRequest",
+    "message": "Bad Request"
+   }
+  ],
+  "code": 400,
+  "message": "Bad Request"
+ }
+}
+ in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse()
+#1 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Task/Runner.php(181): Google_Http_REST::doExecute()
+#2 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Client.php(779): Google_Http_REST::execute()
+#4 /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute()
+#5 /home/dinxstud/public_html/googleapi/vendor/google/apiclient-services/src/Calendar/Resource/Events.php(143): Google_Service_Resource->call()
+#6 /home/dinxstud/public_html/googleapi/create_event.php(87): Google\Service\Calendar\Resource\Events->insert()
+#7 {main}
+  thrown in /home/dinxstud/public_html/googleapi/vendor/google/apiclient/src/Google/Http/REST.php on line 118
